@@ -38,11 +38,10 @@ mat_copy[0].append('g')
 print("original ", matrix)
 print("Copy :" , mat_copy)
 
-
-
 print()
-print("=="*20)
-print()
+
+print("=="*20 , '\n')
+
 
 # deepcopy is used for fully independent copy at any level 
 
