@@ -2,7 +2,7 @@
 
 letters = ['a', 'e', 'c', 'd']
 
-(letters.sort())
+(letters.sort())   # it just a method 
 # letters.sort(reverse= True)
 print(letters)
 
@@ -15,19 +15,19 @@ matrix = [
 # matrix.sort()
 print(matrix)
 
-matrix[1].sort()
+matrix[1].sort()  
 print(matrix)
 
 
 new_list = sorted(letters)
-print(new_list)
+print(" new list " , new_list)
 new_list2 = sorted(letters, reverse= True)
 print(new_list2, "\n")
 
-letters.reverse()
+letters.reverse()    # it just a method and it flip the hole list start to end 
 print(letters , "\n")
 
-new_let = list(reversed(letters))  
+new_let = list(reversed(letters))    # it gives the value and have to cast it into a list 
 print(new_let , "\n")
 
 
@@ -40,5 +40,6 @@ matrix2 = [
 # matrix2.reverse()
 # print(matrix2 , "\n")
 
-new_matrix = list(reversed(matrix2))
+new_matrix = list(reversed(matrix2))  
 print(new_matrix)
+
