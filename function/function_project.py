@@ -1,6 +1,6 @@
 #action function
 def write_log(message):
-    with open(r"D:\NEW\Bara Pyhon\app.log", "a") as file:
+    with open(r"D:\NEW\Bara Pyhon\message.log", "a") as file:
         file.write(message +  " \n")
 
 
